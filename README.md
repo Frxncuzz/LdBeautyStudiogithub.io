@@ -76,3 +76,76 @@
   <script src="script.js"></script>
 </body>
 </html>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background-color: #555;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+main {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #e0e0e0;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+input, select, button {
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #999;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #444;
+  color: white;
+}
+document.getElementById('booking-form').addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  // You could send data to a backend or external service here
+  // For now, just show confirmation message
+  document.getElementById('booking-form').reset();
+  document.getElementById('confirmation').style.display = 'block';
+});
+
