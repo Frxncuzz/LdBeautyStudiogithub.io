@@ -1,4 +1,4 @@
-# LdBeautyStudio.com
+# LD BEAUTY STUDIO
 
 ![images (1)](https://github.com/user-attachments/assets/d37aeca1-9086-411b-b32c-ba111331d4aa)
 <script>
