@@ -10,7 +10,7 @@
      <header> 
          <h1>Dobrodosli u LD Studio</h1>
          <p>Vase kreativno vreme, online</p>
-         <button id="magicBtn">Click me!</button>
+         <button id="magicBtn">Klikni ovde!</button>
 </header>
 
 <main> 
